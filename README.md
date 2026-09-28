@@ -89,7 +89,8 @@ p(orig) + p(rot) ≈ 1. Я смотрел, насколько это услов�
 Нужен Python 3.10–3.12. Важно: на 3.13 и выше onnxruntime не работает,
 так что на этой версии ничего не заведётся. Установка и запуск такие:
 
-после клонирования вставьте папку images с кропами (из задания) в папку test
+после клонирования создайте корне папку test,вставьте папку images с кропами (из задания)
+чтобы получилось avito_test_cv/test/images
 
 pip install -r requirements.txt
 python predict.py --data test/images --sample sample_submission.csv --out submission.csv
